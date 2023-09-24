@@ -30,8 +30,8 @@ export default function NavBar({ session }: { session: Session | null }) {
             <p>Nav Title</p>
           </Link>
 
-          <div>
-          <Link href={pathname} className="flex items-center font-display text-2xl">
+          <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-end w-9/12">
+          <Link href={pathname} className="flex items-center font-display text-2xl text-blue-600">
             <p>/Home{pathname}</p>
           </Link>
           </div>
