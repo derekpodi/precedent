@@ -34,9 +34,18 @@ export default function NavBar({ session }: { session: Session | null }) {
           <Link href={pathname} className="flex items-center font-display text-2xl text-blue-600">
             <p>/Home{pathname}</p>
           </Link>
-          </div>
+        </div>
+        
+        <div>
+          <button
+                className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
+                //onClick={() => setShowSignInModal(true)}
+              >
+                Dark Mode
+          </button>
+        </div>
           
-          <div>
+        <div>
             {session ? (
               <UserDropdown session={session} />
             ) : (
