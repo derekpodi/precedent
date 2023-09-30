@@ -15,7 +15,7 @@ export default function Return_Home() {
             ← Return to Home
           </Link>
 
-          <p>© 2023- , Derek.</p>
+          <p>© 2023 Derek.</p>
 
         </div>
       </div>

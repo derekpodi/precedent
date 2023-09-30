@@ -25,6 +25,7 @@ export default async function Home() {
     .catch((e) => console.log(e));
 
   return (
+    
     <>
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
         <a
