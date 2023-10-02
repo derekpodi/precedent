@@ -29,9 +29,6 @@ export default async function Home() {
     
     <>
       <div className="z-10 w-full max-w-full px-5 xl:px-0">
-  
-        <Links />
-
         <a
           href="https://twitter.com/steventey/status/1613928948915920896"
           target="_blank"
