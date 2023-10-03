@@ -7,7 +7,7 @@ export function Links() {
   const pathname = usePathname()
  
   return (
-    <div className="fixed h-screen w-full text-right pr-6 pt-40">
+    <div className="fixed h-screen w-full text-right pr-6 pt-36">
       <ul>
         <li>
           <Link className={`link ${pathname === '/' ? 'active' : ''} text-blue-600`} href="/" >
