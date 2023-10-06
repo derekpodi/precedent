@@ -38,8 +38,8 @@ export default function NavBar({ session }: { session: Session | null }) {
         
         <div>
           <button
-                className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
-                //onClick={() => setShowSignInModal(true)}
+                id="darkButton" className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
+                onClick={() => console.log("You clicked on the button!")}
               >
                 Dark Mode
           </button>
