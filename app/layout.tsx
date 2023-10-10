@@ -28,9 +28,9 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html className="dark" lang="en">
       <body className={cx(sfPro.variable, inter.variable)}>
-        <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-cyan-100 dark:bg-slate-800 dark:text-slate-400" />
+        <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-50 via-white to-slate-800 dark:bg-slate-800 dark:text-slate-400" />
         <Suspense fallback="...">
           {/* @ts-expect-error Server Component */}
           <Nav />
