@@ -35,16 +35,18 @@ export default function NavBar({ session }: { session: Session | null }) {
             <p>/Home{pathname}</p>
           </Link>
         </div>
-        
+
+        {/*
         <div>
           <button
                 id="darkButton" className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
-                onClick={() => console.log("You clicked on the button!")}
+                onClick={() => console.log("You clicked on the buttonw!")}
               >
                 Dark Mode
           </button>
         </div>
-          
+        */}
+        
         <div>
             {session ? (
               <UserDropdown session={session} />
